@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:squint="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".company_profile.ProfileCompany">
+    <RelativeLayout
+        android:id="@+id/reAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/actionbar">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <com.intrusoft.squint.DiagonalView
+            android:id="@+id/diagonal"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            squint:diagonalDirection="right_to_left"
+            squint:angle="6"
+            squint:gravity="right" />
+
+        <!--<com.profile.cv.ahmed.cvprofile.controller.RoundedImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginLeft="45dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:background="@color/white"-->
+            <!--/>-->
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="4dp"
+            android:padding="3dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="right|end"
+        android:text="Description"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="right|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Suffering because of "/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_gray"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="15dp"
+    android:layout_marginEnd="15dp"
+    android:gravity="right|end"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvPhoneNo"
+        android:layout_width="wrap_content"
+        android:textColor="@color/text_gray"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="18sp"
+        android:layout_gravity="right|end"
+        android:layout_height="wrap_content"
+        android:text="12112"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/text_gray"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Phone No"/>
+
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="right|end"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="right|end"
+
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_gray"
+            android:textSize="18sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="wrap_content"
+            android:text="eee@gmail.com"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_gray"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+
+            android:text="EMAIL"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="right|end"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp"
+        android:layout_gravity="right|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="BRANCHES"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reBranches"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:gravity="right|end"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right|end"
+        android:background="@color/text_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp"
+        android:layout_gravity="right|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="Projects"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reProject"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:gravity="right|end"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:layout_gravity="right|end"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="CONTACT US"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reContactUs"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        />
+    <LinearLayout
+        android:id="@+id/linViewMap"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_horizontal"
+        android:background="#E5E3E8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#505AA1"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="View map"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
